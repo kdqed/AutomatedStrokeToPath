@@ -6,7 +6,9 @@ So I wrote a shell script to batch convert strokes in all glyph SVGs to paths us
 
 # Requirements
 
-This script requires that inkscape is installed and is available on the command line
+1. This script works on Linux based systems. For windows see [this](https://github.com/mtgibbs)
+
+2. This script requires that inkscape is installed and is available on the command line
 
 You can check for this as follows
 
