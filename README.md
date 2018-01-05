@@ -23,4 +23,4 @@ Inkscape 0.91 r13725`
 $ ./stroketopath.sh <foldername>
 ```
 
-**P.S.:** Inkscape GUI opens and closes for every SVG file being processes. Yes, it is annoying but I don't know how to prevent that.
+**P.S.:** Inkscape GUI opens and closes for every SVG file being processed. Yes, it is annoying but I don't know how to prevent that.
