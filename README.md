@@ -10,12 +10,14 @@ This script requires that inkscape is installed and is available on the command 
 
 You can check for this as follows
 
-`$ inkscape -V
-Inkscape 0.91 r13725`
+`$ inkscape -V`
+
+`Inkscape 0.91 r13725`
 
 # Usage
 1. Put all your SVGs in a folder alongside this script
 2. Run the script as follows:
+
 `> ./stroketopath.sh <foldername>`
 
 **P.S.:** Inkscape GUI opens and closes for every SVG file being processes. Yes, it is annoying but I don't know how to prevent that.
