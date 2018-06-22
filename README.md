@@ -4,7 +4,7 @@ Many iconfont generators (IcoMoon, for example) require the SVG to have only pat
 
 So I wrote a shell script to batch convert strokes in all glyph SVGs to paths using the inkscape command line options
 
-# Requirements
+## Requirements
 
 1. This script works on Linux based systems. For windows see [this](https://github.com/mtgibbs/inkscape-stroke-to-path)
 
@@ -17,12 +17,14 @@ $ inkscape -V
 Inkscape 0.91 r13725`
 ```
 
-# Usage
+## Usage
 1. Put all your SVGs in a folder alongside this script
 2. Run the script as follows:
 
 ```
 $ ./stroketopath.sh <foldername>
 ```
+## My font development workflow
+Check out my font developemnt workflow: [icanfont](https://github.com/thekarthik/icanfont)
 
 **P.S.:** Inkscape GUI opens and closes for every SVG file being processed. Yes, it is annoying but I don't know how to prevent that.
